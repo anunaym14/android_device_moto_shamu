@@ -377,9 +377,7 @@ PRODUCT_COPY_FILES += \
 
 # set default USB configuration
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    sys.usb.config=mtp,adb \
-    persist.sys.usb.config=mtp,adb \
-    ro.adb.secure=1
+    persist.sys.usb.config=mtp,adb
 
 # Modem debugger
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
