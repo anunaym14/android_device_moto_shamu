@@ -478,17 +478,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.ignore_ims_wlan=1 \
     persist.radio.data_con_rprt=1
 
-# OEM Unlock reporting
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.oem_unlock_supported=1
-
 # ro.product.first_api_level indicates the first api level the device has commercially launched on.
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.first_api_level=21
-
-# Google Assistant
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.opa.eligible_device=true
 
 # miracast props
 PRODUCT_PROPERTY_OVERRIDES += \
