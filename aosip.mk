@@ -23,7 +23,7 @@ $(call inherit-product, device/moto/shamu/device.mk)
 $(call inherit-product-if-exists, vendor/motorola/shamu/device-vendor.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/shamu/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 PRODUCT_NAME := aosip_shamu
 PRODUCT_DEVICE := shamu
